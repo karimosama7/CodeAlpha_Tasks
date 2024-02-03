@@ -3,8 +3,8 @@ import random
 list = []
 with open("D:\project\python2.py\hangman\hangman_wordlist.txt", "r") as file:
     list = file.read().split("\n")
-# word = random.choice(list)
-word = "karim"
+word = random.choice(list)
+#word = "karim"
 print(
     "-------------------------- Welcome in Hangman Game-------------------------------\n"
 )
